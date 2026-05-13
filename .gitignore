@@ -31,3 +31,15 @@ build/
 
 ### VS Code ###
 .vscode/
+
+#IGNORE THE COMPILED OUTPUT
+folder
+/target/
+
+#iGNORE THE IDE SPECIFIC FILES
+.vscode/
+.idea/
+*.iml
+
+#ignore the maven wrapper files if you dont want them
+.mvn/
